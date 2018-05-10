@@ -1,0 +1,7 @@
+D:\Studia\mgr\pos_sem1\PosProjekt\PosProjekt\bin\Debug\PosProjekt.exe.config
+D:\Studia\mgr\pos_sem1\PosProjekt\PosProjekt\bin\Debug\PosProjekt.exe
+D:\Studia\mgr\pos_sem1\PosProjekt\PosProjekt\bin\Debug\PosProjekt.pdb
+D:\Studia\mgr\pos_sem1\PosProjekt\PosProjekt\obj\Debug\PosProjekt.csprojAssemblyReference.cache
+D:\Studia\mgr\pos_sem1\PosProjekt\PosProjekt\obj\Debug\PosProjekt.csproj.CoreCompileInputs.cache
+D:\Studia\mgr\pos_sem1\PosProjekt\PosProjekt\obj\Debug\PosProjekt.exe
+D:\Studia\mgr\pos_sem1\PosProjekt\PosProjekt\obj\Debug\PosProjekt.pdb
