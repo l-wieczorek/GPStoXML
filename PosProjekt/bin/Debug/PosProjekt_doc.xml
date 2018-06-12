@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PosProjekt</name>
+    </assembly>
+    <members>
+        <member name="T:PosProjekt.CreateXML">
+            <summary>
+            Klasa obiektow umozliwiajaca generowanie pliku XML
+            </summary>
+        </member>
+        <member name="M:PosProjekt.CreateXML.createXML">
+            <summary>
+            Metoda generująca plik XML na podstawie listy TrackPoint
+            </summary>
+        </member>
+        <member name="T:PosProjekt.GpsReader">
+            <summary>
+            Klasa obiektow umozliwiajaca pobieranie danych z plikow GPS
+            </summary>
+        </member>
+        <member name="M:PosProjekt.GpsReader.getGpsInfo(System.String)">
+            <summary>
+            Metoda pobiera z pliku GPS informacje o polozeniu (pozycja geograficzna), dacie i czasie, predkosci, wysokosci oraz azymucie.
+            </summary>
+            <param name="filePath">Sciezka do pliku GPS</param>
+            <returns>Zwraca liste struktur TrackPoint</returns>
+        </member>
+        <member name="T:PosProjekt.TrackPoint">
+            <summary>
+            Struktura przetrzymująca informacje z pliku GPS
+            </summary>
+        </member>
+        <member name="M:PosProjekt.TrackPoint.#ctor(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <param name="lat">Szerokosc geograficzna</param>
+            <param name="lon">Dlugosc geograficzna</param>
+            <param name="ele">Wysokosc</param>
+            <param name="speed">Predkosc poruszania sie</param>
+            <param name="course">Azymut</param>
+            <param name="time">Data i czas</param>
+        </member>
+    </members>
+</doc>

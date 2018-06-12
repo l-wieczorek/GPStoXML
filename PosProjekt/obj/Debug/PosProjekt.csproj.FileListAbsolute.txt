@@ -5,3 +5,4 @@ D:\Studia\mgr\pos_sem1\PosProjekt\PosProjekt\obj\Debug\PosProjekt.csprojAssembly
 D:\Studia\mgr\pos_sem1\PosProjekt\PosProjekt\obj\Debug\PosProjekt.csproj.CoreCompileInputs.cache
 D:\Studia\mgr\pos_sem1\PosProjekt\PosProjekt\obj\Debug\PosProjekt.exe
 D:\Studia\mgr\pos_sem1\PosProjekt\PosProjekt\obj\Debug\PosProjekt.pdb
+D:\Studia\mgr\pos_sem1\PosProjekt\PosProjekt\bin\Debug\PosProjekt_doc.xml
