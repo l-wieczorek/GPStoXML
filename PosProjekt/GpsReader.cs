@@ -35,8 +35,8 @@ namespace PosProjekt
                         {
                             char[] latChar = paramOfGps[3].ToCharArray();
                             char[] lonChar = paramOfGps[5].ToCharArray();
-                            lat = latChar[0].ToString() + latChar[1].ToString() + "." + latChar[2].ToString() + latChar[3].ToString();
-                            lon = lonChar[1].ToString() + lonChar[2].ToString() + "." + lonChar[3].ToString() + lonChar[4].ToString();
+                            lat = latChar[0].ToString() + latChar[1].ToString() + "." + latChar[2].ToString() + latChar[3].ToString() + latChar[5].ToString() + latChar[6].ToString() + latChar[7].ToString() + latChar[8].ToString();
+                            lon = lonChar[1].ToString() + lonChar[2].ToString() + "." + lonChar[3].ToString() + lonChar[4].ToString() + lonChar[6].ToString() + lonChar[7].ToString() + lonChar[8].ToString() + lonChar[9].ToString();
                             speed = paramOfGps[7];
                             course = paramOfGps[8];
                             char[] date = paramOfGps[9].ToCharArray();

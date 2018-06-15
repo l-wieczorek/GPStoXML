@@ -23,7 +23,7 @@ namespace PosProjekt
 
             if (GpsReader.error == null)
             {
-                XmlTextWriter writer = new XmlTextWriter("gpx_" + DateTime.Now.ToString("s").Replace(":", "_") + ".xml", Encoding.UTF8);
+                XmlTextWriter writer = new XmlTextWriter("gpx_" + DateTime.Now.ToString("s").Replace(":", "_") + ".gpx", Encoding.UTF8);
                 writer.Formatting = Formatting.Indented;
                 writer.WriteProcessingInstruction("xml", "version='1.0' encoding='UTF-8'");
                 writer.WriteStartElement("gpx");
